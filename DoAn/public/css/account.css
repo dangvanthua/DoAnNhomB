@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.side-bar-info {
+    background-color: #f5f5f5;
+    height: 100%;
+}
+
+.round-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.account-info {
+    margin-left: 12px;
+}
+
+.account-username {
+    font-size: 16px;
+    color: #333;
+}
+
+.account-edit {
+    font-size: 14px;
+    color: #777;
+}
+
+.info-option {
+    margin-top: 48px;
+}
+
+.option-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    padding: 0;
+    list-style: none;
+}
+
+.option-list .option-list-item {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.option-list .option-list-item:hover {
+    color: #12b886;
+}
+
+.info-profile {
+    margin: 12px 0 48px 0;
+}
+
+.info-profile h3 {
+    color: #12b886;
+    font-size: 32px;
+}
+
+.info-profile span {
+    font-size: 16px;
+    color: #777;
+}
+
+.form-info {
+    max-width: 550px;
+}
+
+.info-edit-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.info-edit-group h4 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.info-edit-group .info-input-name {
+    width: 85%;
+}
+
+.info-edit-group .info-radio {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.info-edit-group .info-date {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}

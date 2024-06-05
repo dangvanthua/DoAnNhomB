@@ -1,0 +1,29 @@
+.filter {
+    background-color: #f1f3f5;
+    padding: 12px;
+    border-radius: 9px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.01);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    margin-bottom: auto;
+}
+
+.pagination {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}

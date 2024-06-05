@@ -1,0 +1,48 @@
+.btn-login {
+    border: 1px #12b886 solid;
+    border-radius: 5px;
+    background: #12b886;
+    padding: 5px 10px;
+    color: white;
+}
+
+.btn-login>a {
+    text-decoration: none;
+    color: white;
+    font-weight: none;
+}
+
+.hr-lines{
+    position: relative;
+    text-align: center;
+  }
+
+  .hr-lines:before{
+    content:" ";
+    height: 1px;
+    width: 40%;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+
+  .hr-lines:after{
+    content:" ";
+    height: 1px;
+    width: 40%;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+

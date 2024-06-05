@@ -1,0 +1,32 @@
+.order-success-name {
+    font-size: 32px;
+    color: #35dfac;
+    letter-spacing: 1.2px;
+}
+
+.order-succes-detail {
+    color: #35dfac;
+    font-size: 24px;
+}
+
+.order-detail {
+    background-color: rgba(53, 223, 172, 0.15);
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.order-detail p {
+    color: #444;
+}
+
+.icon-check-success {
+    color: #fff;
+    background-color: #35dfac;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.order-index {
+    font-size: 14px;
+    font-weight: 700;
+}
